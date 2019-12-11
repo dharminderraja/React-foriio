@@ -1,0 +1,34 @@
+.ui.container.segment{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.paging{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.paging .ui.pagination{
+    margin: auto;
+}
+
+.users-list .item {
+    border-bottom: 1px solid #eee;
+}
+
+.users-list .ui.card {
+    width: 150px;
+}
+
+.users-list .ui.card>.content>.header:not(.ui){
+    font-size: 0.9em;
+}
+
+.users-list .ui.card .meta {
+    font-weight: 700;
+}
+
+.users-list .ui.card.item{
+    margin-top: 25px;
+}
