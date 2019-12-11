@@ -5,7 +5,7 @@ import { MemoryRouter } from 'react-router';
 import App from 'components/App';
 import UsersList from 'components/UsersList';
 
-it('shows the users list', () => {
+it('shows the app with userslist', () => {
     const wrapper = mount(
         <MemoryRouter initialEntries={[ '/' ]}>
             <Root>
@@ -14,8 +14,6 @@ it('shows the users list', () => {
         </MemoryRouter>
       );
     expect(wrapper.find(UsersList).length).toEqual(1);
-
-
     
     wrapper.unmount();
 });
